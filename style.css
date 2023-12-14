@@ -1,0 +1,249 @@
+body{
+    background: #2f83ad;
+    background: -webkit-linear-gradient(to right, #6d8297, #3d91bb);
+    background: linear-gradient(to right, #ebebeb, #3f7b90);
+    
+    }
+    
+    .top{
+    background-color: #052c5f;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    }
+    
+    .container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    }
+    
+    
+    .quickadd{
+    font-size: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px;
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: 15%;
+    }
+    
+    #new {
+    margin-right: 12px;
+    margin-left: 5px;
+    
+    }
+    
+    #content{
+        margin: 6px;
+    }
+    
+    #QuickAdd{
+    border-radius: 5px;
+    color: white;
+    background-color: #052c5f;
+    border: none;
+    width: 200px;
+    transition: all 0.5s;
+    justify-content: center;
+    
+    }
+    
+    #QuickAdd:hover{
+    background: #14bdc3;
+    background: -webkit-linear-gradient(to right, #1d827e, #3c5cad);
+    background: linear-gradient(to right, #1d827e, #3c5cad);
+    width: 240px;
+        
+        
+    }
+    
+    hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
+    .quickaddForm {
+    padding:0px;
+    background:rgb(240,240,240);
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background: #238dca;
+    background: #238dca;
+    max-width: 50%;
+    max-height: fit-content;
+    color: aliceblue;
+    border-radius: 12px;
+    margin: auto;
+    overflow: hidden;
+    display: none;
+    }
+    .row{
+        margin-bottom:8px;
+    }
+    
+    #Add,#Cancel {
+    margin:top 5%;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    left:300px;
+    border-radius:5px;
+    border: none;
+    width: 70px;
+    transition: width 0.5s;
+    }
+    
+    h3 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    font-size: 2.5rem;
+    margin-top: 15px;
+    
+    }
+    
+    label {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.6rem;
+        color: white;
+        transition: color 1s;
+    }
+    
+    input{
+        margin-bottom:  15px;
+        width: 100%;
+        color: white;
+        border : 0px;
+        background: rgba(0,0,0,0.1);
+        border-bottom: 2px;
+        border-bottom-color: aliceblue;
+        height: 26px;
+        font-size: 16px;
+    
+    }
+    
+    textarea {
+        margin-bottom: 15px;
+        width: 100%;
+        background: rgba(0,0,0,0.1);
+        color: white;
+        border: 0px;
+        font-size: 16px;
+    }
+    
+    #form {
+        padding: 25px;
+        min-height: auto;
+    }
+    
+    ::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    
+    }
+    
+    input:focus {
+        outline:none;
+    }
+    
+    textarea:focus{
+        outline:none;
+    }
+    
+    select:focus{
+        outline: none;
+    }
+    
+    button {
+        color: #000000;
+    }
+    
+    option {
+        background-color: rgb(4, 3, 3);
+    }
+    
+    .entry {
+        background-color: #052c5f;
+        height:50px;
+        border-bottom:1px solid;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+        color: white;
+        transition: color 1.1s;
+    }
+    
+    
+    .entry .name {
+        width:160px;
+        float:left;
+        padding:7px;
+        margin-top: 4px;
+    }
+    
+    .entry .email {
+        width:200px;
+        float:left;
+        padding:7px;
+        margin-top: 4px;
+    }
+    
+    
+    .entry .phone {
+        width:160px;
+        float:left;
+        padding:7px;
+        margin-top: 4px;
+    }
+    
+    .entry .address {
+        width:300px;
+        float:left;
+        padding:7px;
+        margin-top: 4px;
+    }
+    
+    .entry .city {
+        width:160px;
+        float:left;
+        padding:7px;
+        margin-top: 4px;
+    }
+    
+    .entry .del {
+        width:70px;
+        float:left;
+        padding:7px;
+        margin-left: 20px;
+        margin-top: 4px;
+    }
+    
+    
+    .entry .del a {
+        font-family:sans-serif;
+        color:white;
+        font-size:12px;
+        padding:5px;
+        background:black;
+        border-radius:2px;
+        text-decoration:none;
+        
+    }
+    
+    .delbutton{
+    padding: 9px;
+    }
+    
+    #cp{
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    }
+    #bar{
+    color: white;
+    transition: color 1.1s;
+    }
+    #bar:hover{
+    color: peru;
+    }
+    
+    label:hover{
+    color: peru;
+    }
